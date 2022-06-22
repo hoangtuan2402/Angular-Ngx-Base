@@ -4,10 +4,10 @@
   "projects": {
     "admin": "libs/admin",
     "animations": "libs/animations",
-    "api": "apps/api",
+
     "app-confirm": "libs/app-confirm",
     "auth": "libs/auth",
-    "backend": "apps/backend",
+
     "breadcrumbs": "libs/breadcrumbs",
     "chat-box": "libs/chat-box",
     "clap": "libs/clap",
