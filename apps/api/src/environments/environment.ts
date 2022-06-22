@@ -28,7 +28,7 @@ export const environment: IEnvironment = {
     database: 'postgres',
     username: 'postgres',
     password: 'postgres321',
-    keepConnectionAlive: true,
+    // keepConnectionAlive: true,
     logging: true,
     synchronize: true,
     uuidExtension: 'pgcrypto',
