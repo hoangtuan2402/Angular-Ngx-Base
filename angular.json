@@ -4,12 +4,9 @@
   "projects": {
     "admin": "libs/admin",
     "animations": "libs/animations",
-
     "app-confirm": "libs/app-confirm",
     "auth": "libs/auth",
-
     "breadcrumbs": "libs/breadcrumbs",
-
     "context-menu": "libs/context-menu",
     "core": "libs/core",
     "dashboard": "libs/dashboard",
@@ -19,7 +16,6 @@
     "home": "libs/home",
     "image-comparison": "libs/image-comparison",
     "json-diff": "libs/json-diff",
-
     "loading-overlay": "libs/loading-overlay",
     "models": "libs/models",
     "navigator": "libs/navigator",
@@ -31,7 +27,6 @@
     "scrollbar": "libs/scrollbar",
     "shared": "libs/shared",
     "sidenav": "libs/sidenav",
-
     "svg-viewer": "libs/svg-viewer",
     "theme-picker": "libs/theme-picker",
     "toolbar": "libs/toolbar",

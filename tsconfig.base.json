@@ -20,7 +20,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "paths": {
-//      "@env-api/environment": ["apps/api/src/environments/environment.ts"],
       "@env/*": ["apps/webapp/src/environments/*"],
       "@ngx-starter-kit/admin": ["libs/admin/src/index.ts"],
       "@ngx-starter-kit/animations": ["libs/animations/src/index.ts"],
@@ -38,7 +37,6 @@
       "@ngx-starter-kit/home": ["libs/home/src/index.ts"],
       "@ngx-starter-kit/image-comparison": ["libs/image-comparison/src/index.ts"],
       "@ngx-starter-kit/json-diff": ["libs/json-diff/src/index.ts"],
-//      "@ngx-starter-kit/led": ["libs/led/src/index.ts"],
       "@ngx-starter-kit/loading-overlay": ["libs/loading-overlay/src/index.ts"],
       "@ngx-starter-kit/models": ["libs/models/src/index.ts"],
       "@ngx-starter-kit/navigator": ["libs/navigator/src/index.ts"],
@@ -50,7 +48,6 @@
       "@ngx-starter-kit/scrollbar": ["libs/scrollbar/src/index.ts"],
       "@ngx-starter-kit/shared": ["libs/shared/src/index.ts"],
       "@ngx-starter-kit/sidenav": ["libs/sidenav/src/index.ts"],
-//      "@ngx-starter-kit/socketio-plugin": ["libs/socketio-plugin/src/index.ts"],
       "@ngx-starter-kit/svg-viewer": ["libs/svg-viewer/src/index.ts"],
       "@ngx-starter-kit/theme-picker": ["libs/theme-picker/src/index.ts"],
       "@ngx-starter-kit/toolbar": ["libs/toolbar/src/index.ts"],
