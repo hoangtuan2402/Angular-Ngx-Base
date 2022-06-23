@@ -50,7 +50,7 @@
       "@ngx-starter-kit/scrollbar": ["libs/scrollbar/src/index.ts"],
       "@ngx-starter-kit/shared": ["libs/shared/src/index.ts"],
       "@ngx-starter-kit/sidenav": ["libs/sidenav/src/index.ts"],
-      "@ngx-starter-kit/socketio-plugin": ["libs/socketio-plugin/src/index.ts"],
+//      "@ngx-starter-kit/socketio-plugin": ["libs/socketio-plugin/src/index.ts"],
       "@ngx-starter-kit/svg-viewer": ["libs/svg-viewer/src/index.ts"],
       "@ngx-starter-kit/theme-picker": ["libs/theme-picker/src/index.ts"],
       "@ngx-starter-kit/toolbar": ["libs/toolbar/src/index.ts"],

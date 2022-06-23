@@ -4,7 +4,6 @@ import { NavigationEnd, Router } from '@angular/router';
 import { environment } from '@env/environment';
 import { hierarchicalRouteAnimation } from '@ngx-starter-kit/animations';
 import { RouterStateData, WINDOW } from '@ngx-starter-kit/core';
-import { ConnectWebSocket, DisconnectWebSocket } from '@ngx-starter-kit/socketio-plugin';
 import { RouterState } from '@ngxs/router-plugin';
 import { Actions, Store } from '@ngxs/store';
 import { OAuthService } from 'angular-oauth2-oidc';
@@ -72,17 +71,9 @@ export class DashboardLayoutComponent implements OnInit, OnDestroy {
     }, 2000);
 
     // Disable WebSocket in mock mode
-    if (environment.envName !== 'mock') {
-      this.store.dispatch(
-        new ConnectWebSocket({
-          url: environment.WS_EVENT_BUS_URL,
-          tokenFn: () => this.oauthService.getAccessToken(), // this.authService.getToken(),
-        })
-      );
-    }
+
   }
 
   ngOnDestroy() {
-    this.store.dispatch(new DisconnectWebSocket());
   }
 }

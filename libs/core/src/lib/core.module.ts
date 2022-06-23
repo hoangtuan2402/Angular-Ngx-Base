@@ -8,7 +8,6 @@ import { faGithub, faGoogle, faTwitter } from '@fortawesome/free-brands-svg-icon
 import { FormlyModule } from '@ngx-formly/core';
 import { AuthModule } from '@ngx-starter-kit/auth';
 import { MenuState, NavigatorModule } from '@ngx-starter-kit/navigator';
-import { NgxsWebsocketPluginModule } from '@ngx-starter-kit/socketio-plugin';
 import { NgxsFormPluginModule } from '@ngxs/form-plugin';
 import { NgxsRouterPluginModule, RouterStateSerializer } from '@ngxs/router-plugin';
 import { NgxsStoragePluginModule } from '@ngxs/storage-plugin';
@@ -57,9 +56,7 @@ export function noop() {
       key: ['preference', 'app.installed', 'auth.isLoggedIn'],
     }),
     NgxsFormPluginModule.forRoot(),
-    NgxsWebsocketPluginModule.forRoot({
-      url: environment.WS_EVENT_BUS_URL,
-    }),
+
     NgxsRouterPluginModule.forRoot(),
     AuthModule.forRoot(),
     // OidcModule.forRoot({
