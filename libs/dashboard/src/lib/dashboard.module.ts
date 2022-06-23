@@ -4,7 +4,6 @@ import { FilePondModule, registerPlugin } from 'ngx-filepond';
 
 import { MaskModule, DateFnsModule } from '@ngx-starter-kit/ngx-utils';
 import { AuthGuard } from '@ngx-starter-kit/auth';
-import { ChatBoxModule } from '@ngx-starter-kit/chat-box';
 import { SharedModule } from '@ngx-starter-kit/shared';
 import { BreadcrumbsModule } from '@ngx-starter-kit/breadcrumbs';
 
@@ -77,9 +76,7 @@ const matModules = [
     MaskModule,
     FilePondModule,
     // FIXME: AOT not working with environment.xyz
-    ChatBoxModule.forRoot({
-      accessToken: '37808bf14a19406cbe2a50cfd1332dd3', // environment.dialogFlow.apiToken
-    }),
+
     RouterModule.forChild([
       /* {path: '', pathMatch: 'full', component: InsertYourComponentHere} */
       {

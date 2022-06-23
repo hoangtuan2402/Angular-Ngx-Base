@@ -3,7 +3,6 @@ import { RouterModule } from '@angular/router';
 import { FilePondModule, registerPlugin } from 'ngx-filepond';
 
 import { KnobModule } from '@xmlking/ngx-knob';
-import { LedModule } from '@ngx-starter-kit/led';
 import { ClapModule } from '@ngx-starter-kit/clap';
 import { SharedModule } from '@ngx-starter-kit/shared';
 import { InViewportModule } from '@ngx-starter-kit/ngx-utils';
@@ -19,7 +18,6 @@ import { ClapButtonComponent } from './containers/clap-button/clap-button.compon
 import { KnobDemoComponent } from './containers/knob-demo/knob-demo.component';
 import { VirtualScrollComponent } from './containers/virtual-scroll/virtual-scroll.component';
 import { StickyTableComponent } from './containers/sticky-table/sticky-table.component';
-import { LedDemoComponent } from './containers/led-demo/led-demo.component';
 import { ImageCompComponent } from './containers/image-comp/image-comp.component';
 import { LayoutComponent } from './containers/layout/layout.component';
 import { CardComponent } from './components/card/card.component';
@@ -63,7 +61,6 @@ const matModules = [
     FilePondModule,
     ContextMenuModule,
     ClapModule,
-    LedModule,
     KnobModule,
     InViewportModule,
     ImageComparisonModule,
@@ -100,11 +97,7 @@ const matModules = [
         component: ClapButtonComponent,
         data: { title: 'Clap', depth: 3 },
       },
-      {
-        path: 'led',
-        component: LedDemoComponent,
-        data: { title: 'Led', depth: 3 },
-      },
+
       {
         path: 'knob',
         component: KnobDemoComponent,
@@ -141,7 +134,6 @@ const matModules = [
     StickyTableComponent,
     ClapButtonComponent,
     KnobDemoComponent,
-    LedDemoComponent,
     ImageCompComponent,
     LayoutComponent,
     DashingComponent,

@@ -9,7 +9,7 @@
     "auth": "libs/auth",
 
     "breadcrumbs": "libs/breadcrumbs",
-    "chat-box": "libs/chat-box",
+
     "clap": "libs/clap",
     "context-menu": "libs/context-menu",
     "core": "libs/core",
@@ -20,7 +20,7 @@
     "home": "libs/home",
     "image-comparison": "libs/image-comparison",
     "json-diff": "libs/json-diff",
-    "led": "libs/led",
+
     "loading-overlay": "libs/loading-overlay",
     "models": "libs/models",
     "navigator": "libs/navigator",
@@ -32,7 +32,7 @@
     "scrollbar": "libs/scrollbar",
     "shared": "libs/shared",
     "sidenav": "libs/sidenav",
-    "socketio-plugin": "libs/socketio-plugin",
+
     "svg-viewer": "libs/svg-viewer",
     "theme-picker": "libs/theme-picker",
     "toolbar": "libs/toolbar",

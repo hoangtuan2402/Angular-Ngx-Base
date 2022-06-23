@@ -38,7 +38,7 @@
       "@ngx-starter-kit/home": ["libs/home/src/index.ts"],
       "@ngx-starter-kit/image-comparison": ["libs/image-comparison/src/index.ts"],
       "@ngx-starter-kit/json-diff": ["libs/json-diff/src/index.ts"],
-      "@ngx-starter-kit/led": ["libs/led/src/index.ts"],
+//      "@ngx-starter-kit/led": ["libs/led/src/index.ts"],
       "@ngx-starter-kit/loading-overlay": ["libs/loading-overlay/src/index.ts"],
       "@ngx-starter-kit/models": ["libs/models/src/index.ts"],
       "@ngx-starter-kit/navigator": ["libs/navigator/src/index.ts"],
