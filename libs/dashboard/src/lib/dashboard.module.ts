@@ -11,7 +11,6 @@ import { DashboardLayoutComponent } from './containers/dashboard-layout/dashboar
 import { OverviewComponent } from './containers/overview/overview.component';
 import { SettingsComponent } from './containers/settings/settings.component';
 import { RainbowComponent } from './components/rainbow/rainbow.component';
-import { QuickpanelModule } from '@ngx-starter-kit/quickpanel';
 import { ToolbarModule } from '@ngx-starter-kit/toolbar';
 import { SidenavModule } from '@ngx-starter-kit/sidenav';
 import { environment } from '@env/environment';
@@ -71,7 +70,6 @@ const matModules = [
     [...matModules],
     SidenavModule,
     ToolbarModule,
-    QuickpanelModule,
     DateFnsModule,
     MaskModule,
     FilePondModule,

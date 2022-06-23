@@ -23,7 +23,6 @@ import { AppConfirmModule } from '@ngx-starter-kit/app-confirm';
 import { AdminGuard } from '@ngx-starter-kit/auth';
 import { BreadcrumbsModule } from '@ngx-starter-kit/breadcrumbs';
 import { HelperModule, TruncateModule } from '@ngx-starter-kit/ngx-utils';
-import { QuickpanelModule } from '@ngx-starter-kit/quickpanel';
 import { SharedModule } from '@ngx-starter-kit/shared';
 import { ToolbarModule } from '@ngx-starter-kit/toolbar';
 import { NotificationDetailComponent } from './components/notification-detail/notification-detail.component';
@@ -63,7 +62,6 @@ const matModules = [
     TruncateModule,
     HelperModule,
     ToolbarModule,
-    QuickpanelModule,
     FormlyModule.forChild({}),
     FormlyMaterialModule,
     RouterModule.forChild([

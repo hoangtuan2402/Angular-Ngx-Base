@@ -26,7 +26,7 @@
     "ngx-utils": "libs/ngx-utils",
     "not-found": "libs/not-found",
     "notifications": "libs/notifications",
-    "quickpanel": "libs/quickpanel",
+
     "scroll-to-top": "libs/scroll-to-top",
     "scrollbar": "libs/scrollbar",
     "shared": "libs/shared",

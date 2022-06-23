@@ -1,8 +1,6 @@
 <!-- <ngx-rainbow></ngx-rainbow> -->
 <mat-sidenav-container class="dashboard-container">
-  <mat-sidenav class="quickpanel" [opened]="quickpanelOpen" position="end" align="end" mode="over" #quickpanel>
-    <ngx-quickpanel></ngx-quickpanel>
-  </mat-sidenav>
+
 
   <mat-sidenav
     class="sidenav"
@@ -17,7 +15,6 @@
   </mat-sidenav>
 
   <mat-sidenav-content class="content-container" fxLayout="column">
-    <ngx-toolbar [quickpanel]="quickpanel" [sidenav]="sidenav"></ngx-toolbar>
 
     <perfect-scrollbar>
       <div class="route-container" [@routeAnimation]="depth$ | async">
