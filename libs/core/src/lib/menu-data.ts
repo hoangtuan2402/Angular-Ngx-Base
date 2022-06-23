@@ -42,11 +42,7 @@ export const defaultMenu: MenuItem[] = [
     icon: 'developer_board',
     disabled: false,
     children: [
-      {
-        name: 'Animations',
-        icon: 'screen_rotation',
-        link: '/dashboard/experiments/animations',
-      },
+
       {
         name: 'Upload',
         icon: 'backup',
@@ -67,7 +63,7 @@ export const defaultMenu: MenuItem[] = [
         icon: 'view_list',
         link: '/dashboard/experiments/table',
       },
-     
+
       {
         name: 'Layout',
         icon: 'apps',
