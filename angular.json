@@ -10,7 +10,6 @@
 
     "breadcrumbs": "libs/breadcrumbs",
 
-    "clap": "libs/clap",
     "context-menu": "libs/context-menu",
     "core": "libs/core",
     "dashboard": "libs/dashboard",

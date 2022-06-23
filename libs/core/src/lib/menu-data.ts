@@ -67,11 +67,7 @@ export const defaultMenu: MenuItem[] = [
         icon: 'view_list',
         link: '/dashboard/experiments/table',
       },
-      {
-        name: 'Knob',
-        icon: 'rotate_right',
-        link: '/dashboard/experiments/knob',
-      },
+     
       {
         name: 'Layout',
         icon: 'apps',
@@ -87,28 +83,7 @@ export const defaultMenu: MenuItem[] = [
         icon: 'view_carousel',
         link: '/dashboard/experiments/viewport',
       },
-      // {
-      //   name: 'Microinteractions',
-      //   icon: 'casino',
-      //   disabled: false,
-      //   children: [
-      //     {
-      //       name: 'Clap',
-      //       icon: 'pan_tool',
-      //       link: '/dashboard/experiments/clap',
-      //     },
-      //     {
-      //       name: 'Led',
-      //       icon: 'highlight',
-      //       link: '/dashboard/experiments/led',
-      //     },
-      //     {
-      //       name: 'Image Comp',
-      //       icon: 'tonality',
-      //       link: '/dashboard/experiments/image-comp',
-      //     },
-      //   ],
-      // },
+
     ],
   },
   {
@@ -117,57 +92,13 @@ export const defaultMenu: MenuItem[] = [
     disabled: false,
     children: [
       {
-        name: 'Clap',
-        icon: 'pan_tool',
-        link: '/dashboard/experiments/clap',
-      },
-      {
-        name: 'Led',
-        icon: 'highlight',
-        link: '/dashboard/experiments/led',
-      },
-      {
         name: 'Image Comp',
         icon: 'tonality',
         link: '/dashboard/experiments/image-comp',
       },
     ],
   },
-  {
-    name: 'Multi-Level Menu',
-    icon: 'menu',
-    disabled: false,
-    children: [
-      {
-        name: 'Level 1',
-        link: '/level1',
-        children: [
-          {
-            name: 'Level 2',
-            link: '/level1/level2',
-            children: [
-              {
-                name: 'Level 3',
-                link: '/level1/level2/level3',
-                children: [
-                  {
-                    name: 'Level 4',
-                    link: '/level1/level2/level3/level4',
-                    children: [
-                      {
-                        name: 'Level 5',
-                        link: '/level1/level2/level3/level4/level5',
-                      },
-                    ],
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
+
 ];
 
 export const adminMenu: MenuItem[] = [
